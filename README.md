@@ -1,1 +1,3 @@
 # neurite_analysis
+
+MATLAB code for the detection, localization, and feature extraction of neurites in a 2D image. The code was originally written for extracting features of axon-initial segments stained in a slice, but can be used for virtually anything with elongated, directional shapes. The main processing steps are in "locate_neurites.m", which allows you to set gabor filter angles that filter out off-angle objects in an image. I have borrowed some code as well for calculating object curvature and for filling in small gaps to connect nearby pixels. Some code is also available for visualization of the neurites. 
